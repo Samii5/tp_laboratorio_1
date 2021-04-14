@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-float sumar(float numero1, float numero2);
-float restar(float numero1, float numero2);
-float multiplicar(float numero1, float numero2);
-float dividir(float numero1, float numero2);
-float factorial(float numero1);
-float factorial(float numero2);
+float sumar(float NumeroUno, float NumeroDos);
+float restar(float NumeroUno, float NumeroDos);
+float multiplicar(float NumeroUno, float NumeroDos);
+float dividir(float NumeroUno, float NumeroDos);
+float factorial(float NumeroUno);
+float factorial(float NumeroDos);

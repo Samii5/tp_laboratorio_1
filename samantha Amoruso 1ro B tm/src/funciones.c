@@ -1,54 +1,40 @@
-#include "funciones.h"
+#include "Funciones.h"
 
-/*Esta funcion te hace la suma*/
-float sumar(float numero1, float numero2)
+float sumar(float NumeroUno, float NumeroDos)
 {
-
 float resultado;
-resultado = numero1 + numero2;
+resultado = NumeroUno + NumeroDos;
 return resultado;
-
 }
 
-/*Esta funcion te hace la resta*/
-float restar(float numero1, float numero2)
+float restar(float NumeroUno, float NumeroDos)
 {
-
 float resultado;
-resultado = numero1 - numero2;
+resultado = NumeroUno - NumeroDos;
 return resultado;
-
 }
 
-/*Esta funcion te hace la multiplicacion*/
-float multiplicar(float numero1, float numero2)
+float multiplicar(float NumeroUno, float NumeroDos)
 {
-
 float resultado;
-resultado = numero1 * numero2;
+resultado = NumeroUno * NumeroDos;
 return resultado;
-
 }
 
-/*Esta funcion te hace la division*/
-float dividir(float numero1, float numero2)
+float dividir(float NumeroUno, float NumeroDos)
 {
-
 float resultado;
-resultado = numero1 / numero2;
+resultado = NumeroUno / NumeroDos;
 return resultado;
-
 }
 
-/*Esta funcion te hace el factorial*/
-float factorial(float numero1)
+float factorial(float NumeroUno)
 {
     float resultado = 1;
 
-    for (int i = 1; i <= numero1; i++)
+    for (int i = 1; i <= NumeroUno; i++)
     {
         resultado = resultado * i;
     }
-
     return (float) resultado;
 }
