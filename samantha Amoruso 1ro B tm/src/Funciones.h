@@ -21,7 +21,7 @@ float restar(float NumeroUno, float NumeroDos);
 
 /**
  * @fn float multiplicar(float, float)
- * @brief
+ * @brief multiplica dos numeros
  *
  * @param el primer numero que multiplica : NumeroUno
  * @param el segundo numero que multiplica: NumeroDos
@@ -31,7 +31,7 @@ float multiplicar(float NumeroUno, float NumeroDos);
 
 /**
  * @fn float dividir(float, float)
- * @brief
+ * @brief divide dos numeros
  *
  * @param el primer numero que divide: NumeroUno
  * @param el segundo numero que divide: NumeroDos
@@ -41,7 +41,7 @@ float dividir(float NumeroUno, float NumeroDos);
 
 /**
  * @fn float factorial(float)
- * @brief
+ * @brief te da el factorial del numero
  *
  * @param el factorial de un numero: NumeroUno
  * @return el factorial
